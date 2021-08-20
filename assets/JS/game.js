@@ -5,13 +5,12 @@ var choicesBtn = Array.from(document.querySelectorAll(".choice-container"));
 var timeEl = document.querySelector("#timeRemaining")
 var scoreText = document.querySelector("#score");
 
-
 let currentQuestion = {}
 let acceptingAnswers = true
 let timerCount = 60
 let availableQuestions = {}
 
-// Quiz Questions - why are my answers not showing up?? help!
+// Quiz Questions 
 let questions = [
 {
     question: "What do you not use to declare a variable in js?",
@@ -23,7 +22,7 @@ let questions = [
 {
     question: "What does not belong?",
     choices: [
-        "string", "boolean", "undefined", "function"
+        "string", "boolean", "number", "function"
     ],
     answer: 3, 
 },
@@ -53,6 +52,7 @@ let questions = [
 startGame = () => {
     startTimer()
     availableQuestions = [...questions]
+
     getNewQuestion()
 }
 
@@ -110,13 +110,14 @@ choicesBtn.forEach(choice => {
 
 startGame()
 
-
+// Timer Function
 function startTimer() {
-    // Sets timer
     timer = setInterval(function() {
       timerCount--;
-      timeEl.textContent = timerCount 
-
+      if (timeEl) {
+        timeEl.textContent = timerCount 
+      }
+    
       if(timerCount <=0 || availableQuestions.length == 0){
         clearInterval(timer)
         window.location.assign("./end.html")
@@ -124,7 +125,9 @@ function startTimer() {
     }, 1000);
   }
 
-document.getElementById("form").addEventListener("submit",function(event) {
-    event.preventDefault();
-});
-console.log("hello")
+//   document.getElementById("form").addEventListener("submit",function(event) {
+//     event.preventDefault();
+// });
+// console.log("hello")
+
+  

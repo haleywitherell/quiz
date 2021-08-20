@@ -18,8 +18,15 @@
         <input href="/" class="button" type="submit">
     </form>
     <a href="./game.html" class="button">Play Again!</a>
-    <a href="./index.html" class="button">Home Page!</a>
+    <a href="./index.html" class="button">Home Page!</a> 
 
-    <script src="assets/JS/game.js"></script>
+<script>
+    document.getElementById("form").addEventListener("submit",function(event) {
+    event.preventDefault();
+});
+console.log("hello")
+</script>
+
 </body>
-</html>
+<script src="assets/JS/game.js"></script>
+</html> 

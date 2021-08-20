@@ -1,12 +1,11 @@
 # 04 Web APIs: Code Quiz
 
-## Your Task
+# *Disclaimer*
 
-At some point in your journey to become a full-stack web developer, you’ll likely be asked to complete a coding assessment&mdash;perhaps as part of an interview process. A typical coding assessment includes both multiple-choice questions and interactive coding challenges. 
+Knowing what I know now after a week of working on this project, I would have set this up completly different. Due to time I was not able to go back and start over when I realized the way I had my files set up was likely causing a majority of my errors and problems (as well as confusion & stress lol).  
 
-To help familiarize you with these tests and allow you to use the skills covered in this unit, this week’s homework invites you to build a timed coding quiz with multiple-choice questions. This app will run in the browser and will feature dynamically updated HTML and CSS powered by JavaScript code that you write. It will have a clean, polished, and responsive user interface. 
+If I could start over, I would compile all my HTML and CSS files into one document each and use JS to display each section od my quiz in the correct order. 
 
-This week’s coursework will equip you with all the skills you need to succeed in this assignment.
 
 ## User Story
 
@@ -84,6 +83,4 @@ You are required to submit BOTH of the following for review:
 
 * The URL of the GitHub repository, with a unique name and a readme describing the project.
 
----
 
-© 2021 Trilogy Education Services, LLC, a 2U, Inc. brand. Confidential and Proprietary. All Rights Reserved.
