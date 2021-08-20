@@ -1,0 +1,48 @@
+body {
+    color: white;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+h1 {
+    font-size: 22px;
+    text-align: right;
+    /* ask Andres about positon of timer */
+    margin-right:auto;
+}
+
+h2 {
+    align-items: center;
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+h3 {
+    align-items: center;
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.choice-container {
+    background-color:royalblue;
+    border-radius: 15px;
+    display: flex;
+    font-size: 18px;
+    margin-bottom: 15px;
+    width: 100%;
+}
+
+.choice-container:hover {
+    cursor: pointer;
+    transition: transform 100ms ;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 768px) {
+ .choice-container {
+     min-width: 40rem;
+ }   
+}
