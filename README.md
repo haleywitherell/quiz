@@ -4,7 +4,7 @@
 
 Knowing what I know now after a week of working on this project, I would have set this up completly different. Due to time I was not able to go back and start over when I realized the way I had my files set up was likely causing a majority of my errors and problems (as well as confusion & stress lol).  
 
-If I could start over, I would compile all my HTML and CSS files into one document each and use JS to display each section od my quiz in the correct order. 
+If I could start over, I would compile all my HTML and CSS files into one document each and use JS to display each section of my quiz in the correct order. 
 
 
 ## User Story
