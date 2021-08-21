@@ -1,52 +1,30 @@
 # 04 Web APIs: Code Quiz
 
-# *Disclaimer*
-
-Knowing what I know now after a week of working on this project, I would have set this up completly different. Due to time I was not able to go back and start over when I realized the way I had my files set up was likely causing a majority of my errors and problems (as well as confusion & stress lol).  
-
-If I could start over, I would compile all my HTML and CSS files into one document each and use JS to display each section of my quiz in the correct order. 
-
-
-
-## Acceptance Criteria
-
-```
-GIVEN I am taking a code quiz
-WHEN I click the start button
-THEN a timer starts and I am presented with a question
-WHEN I answer a question
-THEN I am presented with another question
-WHEN I answer a question incorrectly
-THEN time is subtracted from the clock
-WHEN all questions are answered or the timer reaches 0
-THEN the game is over
-WHEN the game is over
-THEN I can save my initials and my score
-```
-
-## Mock-Up
+# Mock-Up
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./Assets/04-web-apis-homework-demo.gif)
+![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./assets/video/SR)
 
-## Grading Requirements
+# HTML
+- In my HTML I set up the overall structure of the quiz. 
+- There are three parts. The intro page, game/quiz page and ending page.
 
-This homework is graded based on the following criteria: 
+*Disclaimer*
+Knowing what I know now after a week of working on this project, I would have set this up completly different. Due to time I was not able to go back and start over when I realized the way I had my files set up was likely causing a majority of my errors and problems (as well as confusion & stress lol).  
 
-### Technical Acceptance Criteria: 40%
+If I was doing this again, I would compile all my HTML (and CSS) files into one document and use JS to display each section of my quiz in the correct order. 
 
-* Satisfies all of the preceding acceptance criteria.
 
-### Deployment: 32%
+# CSS
+- I used CSS to style my quiz including colors, fonts, display and more.
 
-* Application deployed at live URL.
 
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
+# JS
+- I used JS to get the quiz to function the way I wanted it to
+- I used JS to get the quiz questions to show up and appear in a random order
+- I used JS to get the timer to function and count down from 60 seconds
+- I used JS to allow users to submit their name and time at the end of the quiz 
 
 ### Application Quality: 15%
 
@@ -68,12 +46,8 @@ This homework is graded based on the following criteria:
 
 * Repository contains quality readme file with description, screenshot, and link to deployed application.
 
-## Review
+# Deployed Link 
 
-You are required to submit BOTH of the following for review:
 
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a readme describing the project.
 
 
