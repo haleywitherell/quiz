@@ -28,7 +28,6 @@ If I was doing this again, I would compile all my HTML (and CSS) files into one 
 - I used JS to allow users to submit their name and time at the end of the quiz 
 
 # Deployed Link 
-
-
+https://haleywitherell.github.io/quiz/game.html 
 
 
