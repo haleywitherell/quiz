@@ -4,7 +4,7 @@
 
 The following animation demonstrates the application functionality:
 
-![A user clicks through an interactive coding quiz, then enters initials to save the high score before resetting and starting over.](./assets/video/SR)
+![Quiz walk through](./assets/video/SR.webm)
 
 # HTML
 - In my HTML I set up the overall structure of the quiz. 
