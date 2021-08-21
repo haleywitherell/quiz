@@ -7,13 +7,6 @@ Knowing what I know now after a week of working on this project, I would have se
 If I could start over, I would compile all my HTML and CSS files into one document each and use JS to display each section of my quiz in the correct order. 
 
 
-## User Story
-
-```
-AS A coding boot camp student
-I WANT to take a timed quiz on JavaScript fundamentals that stores high scores
-SO THAT I can gauge my progress compared to my peers
-```
 
 ## Acceptance Criteria
 

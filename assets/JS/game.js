@@ -48,6 +48,9 @@ let questions = [
     answer: 1,
 }
 ]
+// console.log(gamePage, endPage)
+// gamePage.style.display = "none"
+// lastPage.style.display = "none"
 
 startGame = () => {
     startTimer()
@@ -66,7 +69,7 @@ getNewQuestion = () => {
 
 var questionIndex = Math.floor(Math.random() * availableQuestions.length)
 currentQuestion = availableQuestions[questionIndex]
-question.innerText = currentQuestion.question
+question.textContent = currentQuestion.question
 
 choices.forEach((choice, i) => { 
     var number = choice.dataset["number"]
