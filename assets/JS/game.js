@@ -48,10 +48,8 @@ let questions = [
     answer: 1,
 }
 ]
-// console.log(gamePage, endPage)
-// gamePage.style.display = "none"
-// lastPage.style.display = "none"
 
+// Start Game
 startGame = () => {
     startTimer()
     availableQuestions = [...questions]
@@ -59,7 +57,7 @@ startGame = () => {
     getNewQuestion()
 }
 
-// function 1 - get new question
+// Function 1 - get new question
 getNewQuestion = () => {
     if (availableQuestions.length === 0) {
         localStorage.setItem("mostRecentTime", timer)
@@ -128,9 +126,9 @@ function startTimer() {
     }, 1000);
   }
 
-//   document.getElementById("form").addEventListener("submit",function(event) {
-//     event.preventDefault();
-// });
-// console.log("hello")
+  document.getElementById("form").addEventListener("submit",function(event) {
+    event.preventDefault();
+});
+console.log("hello")
 
   
