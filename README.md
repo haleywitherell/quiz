@@ -1,5 +1,7 @@
 # 04 Web APIs: Code Quiz
 
+I created a coding quiz game for this assignment.
+
 # Mock-Up
 
 The following animation demonstrates the application functionality:
